@@ -1,4 +1,5 @@
 
+import 'file:///D:/projects/flutter%20project/e_commerce_app/lib/screens/signup_screen.dart';
 import 'package:e_commerce_app/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       initialRoute:LoginScreen.id ,
       routes: {
-        LoginScreen.id:(context)=>LoginScreen()
+        LoginScreen.id:(context)=>LoginScreen(),
+       SignUpScreen.id:(context)=>SignUpScreen()
       },
     );
   }
